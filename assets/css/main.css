@@ -2,15 +2,61 @@
 /* color variables */
 /* ~~~~~~~~~~~~~~ */
 :root {
-  --primaryColor: #444444;
-  --secondaryColor: #ffdd67;
+  /* crisp and dramatic */
+  /* --primaryColor: #505160;
+  --secondaryColor: #aebd38;
+  --tertiaryColor: #598234;
+  --quaternaryColor: #68829e; */
+  /* ~~~~~ */
+  /* outdoors and natural */
+  /* --primaryColor: #2e4600;
+  --secondaryColor: #7d4427;
+  --tertiaryColor: #486b00;
+  --quaternaryColor: #a2c523; */
+  /* ~~~~~ */
+  /* playful greens & blues */
+  /* --primaryColor: #324851;
+  --secondaryColor: #86ac41;
+  --tertiaryColor: #34675c;
+  --quaternaryColor: #7da3a1; */
+  /* ~~~~~ */
+  /* autumn in vermont */
+  /* --primaryColor: #1e434c;
+  --secondaryColor: #c99e10;
+  --tertiaryColor: #9b4f0f;
+  --quaternaryColor: #8d230f; */
+  /* ~~~~~ */
+  /* warm naturals */
+  /* --primaryColor: #2e2300;
+  --secondaryColor: #6e6702;
+  --tertiaryColor: #c05805;
+  --quaternaryColor: #db9501; */
+  /* ~~~~~ */
+  /* ermillion and russian green */
+  /* --primaryColor: #a33326;
+  --secondaryColor: #5cdb95;
+  --tertiaryColor: #907163;
+  --quaternaryColor: #379683; */
+  /* ~~~~~ */
+  /* jazz */
+  --jazz1: #2a7e90;
+  --jazz2: #165120;
+  --jazz3: #031138;
+  --jazz4: #013c40;
+  /* ~~~~~~~ */
+  /* interesting */
+  --rainbow: linear-gradient(-45deg, red, orange, yellow, green, blue, indigo, violet);
+  --oldFilmReel: radial-gradient(#fff, #757575)
+    /* ~~~~~ */
+    /* --primaryColor: #2f2f2f;
+  --secondaryColor: #dd541b; */
 }
 
 html {
   box-sizing: border-box;
   font-family: monospace;
-  background-color: var(--primaryColor);
-  color: var(--secondaryColor);
+  background-color: var(--jazz1);
+  color: var(--jazz2);
 }
 
 *,
@@ -116,4 +162,8 @@ html {
 .links img {
   height: 40px;
   cursor: pointer;
+}
+
+.fa {
+  color: var(--jazz2);
 }
